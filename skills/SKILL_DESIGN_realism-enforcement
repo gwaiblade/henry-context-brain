@@ -1,0 +1,74 @@
+# SKILL_DESIGN_realism-enforcement
+
+**Type:** Skill
+**Domain:** Design
+**Version:** 1.0
+**Status:** Active
+
+---
+
+## Purpose
+
+Enforce photographic realism standards on any generated or composited image.
+
+Call this skill as a final quality check before delivering any image output. It applies across all compositing protocols and any AI-assisted generation task.
+
+---
+
+## Core Rule
+
+The final image must resemble a **real photograph**, not a render.
+
+---
+
+## Always Avoid
+
+- CGI perfection or plastic surface quality
+- HDR effect
+- Oversaturation
+- Artificial or symmetrical lighting behavior
+- Unrealistic reflections or floating highlights
+- Perfect symmetry in organic elements (food, steam, textures)
+
+---
+
+## Always Allow
+
+- Subtle natural imperfections
+- Light falloff at frame edges
+- Shadow variation across surfaces
+- Minor environmental irregularities
+
+---
+
+## Protocol-Specific Additions
+
+### Master Lifestyle
+- Mood should feel lived-in and authentic, not overly styled
+- Avoid environments that look like sets
+
+### High-End Editorial
+- Final image should resemble magazine photography, not ecommerce catalog
+- Allow controlled contrast and natural light falloff
+- Avoid flat or even studio wash lighting
+
+### Food-Integrated
+Food surfaces must include:
+- Irregular textures
+- Natural ingredient layering
+- Non-uniform liquid surfaces
+
+Steam rules:
+- Subtle only
+- Irregular shape
+- Fades naturally upward — never solid or uniform
+
+---
+
+## Trigger
+
+Call as final review step on:
+- Master Lifestyle compositing output
+- High-End Editorial compositing output
+- Food-Integrated compositing output
+- Any AI-generated image based on a real product source
