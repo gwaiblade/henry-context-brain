@@ -13,7 +13,7 @@ Reference context, brand docs, and working files live separately in Google Drive
 Paste the raw URL of any file into your AI session before starting a task:
 
 ```
-https://raw.githubusercontent.com/[your-username]/henry-context-brain/main/protocols/CANON_INVESTMENT_market-screener.md
+https://raw.githubusercontent.com/gwaiblade/henry-context-brain/main/protocols/CANON_INVESTMENT_market-screener.md
 ```
 
 Then instruct the agent:
