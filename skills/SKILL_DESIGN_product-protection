@@ -1,0 +1,65 @@
+# SKILL_DESIGN_product-protection
+
+**Type:** Skill
+**Domain:** Design
+**Version:** 1.0
+**Status:** Active
+
+---
+
+## Purpose
+
+Enforce product integrity rules during any image generation or compositing task.
+
+Call this skill at the start of every compositing or generation task before defining environment, lighting, or props. It applies universally — regardless of which compositing protocol is selected.
+
+---
+
+## Core Rule
+
+The product must remain **pixel-accurate and proportionally identical** to the source image.
+
+---
+
+## Do Not Alter
+
+- Proportions
+- Curvature or geometry
+- Handles, lids, spouts, rivets, or structural components
+- Branding or typography
+- Metal grain or surface texture
+- Highlights or shadows intrinsic to the product material
+- Artificial gloss or CGI smoothing
+
+---
+
+## Allowed Adjustments Only
+
+| Element | Allowed |
+|---|---|
+| Lighting | Yes — match to environment |
+| Shadow | Yes — match to scene light direction |
+| Color temperature | Yes — subtle, environment-driven |
+| Environmental reflections | Yes — must align with light source direction |
+
+Reflections and highlights must be consistent with the environmental light direction. No floating highlights or generic shine.
+
+---
+
+## Food Integration Addition
+
+When food is present inside the vessel (Food-Integrated Protocol only):
+
+- Food must conform naturally to container geometry
+- Food must not float, intersect, or ignore physical boundaries of the vessel
+- Food placement is the only additional adjustment allowed beyond the standard list above
+
+---
+
+## Trigger
+
+Call at the start of:
+- Master Lifestyle compositing
+- High-End Editorial compositing
+- Food-Integrated compositing
+- Any generation task where a real product image is provided as source
